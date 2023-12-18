@@ -1,0 +1,4 @@
+---
+kind: wasmer.io/App.v0
+name: wasmer-edge-docusaurus-sample
+package: wasmer-tests/wasmer-edge-docusaurus-sample
