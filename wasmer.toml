@@ -1,9 +1,9 @@
 [package]
 name = "wasmer-examples/docusaurus-wasmer-starter"
-version = "0.2.0"
+version = "0.2.1"
 description = "Wasmer Docusaurus starter package"
 readme = "README.md"
-repository = "https://github.com/wasmer-examples/cdn-wasmer-starter"
+repository = "https://github.com/wasmer-examples/docusaurus-wasmer-starter"
 
 [dependencies]
 "wasmer/static-web-server" = "*"
