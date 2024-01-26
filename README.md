@@ -22,11 +22,23 @@ Build:
 $ yarn build
 ```
 
+You can run the Docusaurus example using Wasmer (check out the [install guide](https://docs.wasmer.io/install)):
+
+```bash
+wasmer run wasmer-examples/docusaurus-wasmer-starter --net -- --port=3000
+```
+
+> [!TIP]
+> You can also run `wasmer run . --net -- --port=3000` in the root of this repo, after running `npm run build`
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the docusaurus docs.
+
+
 ## Deploy on Wasmer Edge
 
 The easiest way to deploy your Docusaurus app is to use the [Wasmer Edge](https://wasmer.io/products/edge).
 
-Live example: http://wasmer-edge-docusaurus-sample.wasmer.app/
+Live example: https://wasmer-edge-docusaurus-sample.wasmer.app/
 
 First, you'll need to run `yarn build`, and then, to deploy to Wasmer Edge:
 
