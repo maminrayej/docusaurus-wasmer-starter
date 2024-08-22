@@ -26,7 +26,7 @@ You can run the Docusaurus example using Wasmer (check out the [install guide](h
 
 ```bash
 yarn build
-wasmer run . --net -- --port=3000
+wasmer run . -- --port=3000
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the docusaurus docs.
